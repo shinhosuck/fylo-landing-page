@@ -196,7 +196,12 @@ HERO SECTION
 CONTENT
 ======= */
 .content-container {
-    background: #f9f8fe;
+    min-height: 100vh;
+    background-image: url('./images/bg-curve-mobile.svg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    /* background: #f9f8fe; */
     margin-top: 3rem;
 }
 
@@ -206,7 +211,7 @@ CONTENT
     margin: 0 auto;
     display: grid;
     gap: 3rem;
-    padding: 5rem 0;
+    padding: 8rem 0;
 }
 
 .content-img {
@@ -471,7 +476,9 @@ FOOTER
 .contact-phone-link {
     display: flex;
     align-items: center;
+    flex-wrap: wrap;
     gap: 1.5rem;
+    row-gap: 1rem;
     color: #e6e9f0
 }
 
@@ -484,7 +491,9 @@ FOOTER
 .contact-email-link {
     display: flex;
     align-items: center;
+    flex-wrap: wrap;
     gap: 1.5rem;
+    row-gap: 1rem;
     color: #e6e9f0;
 }
 
@@ -558,7 +567,7 @@ FOOTER
 }
 
 .attribution-container {
-    padding: 1rem 0;
+    padding: 1.5rem 0;
     background: #07043b;
 }
 
@@ -571,6 +580,14 @@ FOOTER
     letter-spacing: 0.07rem;
     line-height: 1.6;
     font-size: 0.9rem;
+}
+
+.challenge-by {
+    color: rgb(69, 69, 236)
+}
+
+.coded-by{
+    color: rgb(69, 69, 236);
 }
 
 @media screen and (min-width: 832px) {
