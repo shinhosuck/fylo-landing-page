@@ -452,7 +452,7 @@ FOOTER
     margin: 0 auto;
     display: grid;
     align-items: start;
-    grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
     gap: 3rem;
 }
 
@@ -590,13 +590,15 @@ FOOTER
     color: rgb(69, 69, 236);
 }
 
-@media screen and (min-width: 832px) {
-
-    .footer {
-        row-gap: 2rem;
-    }
+@media screen and (min-width: 609px) {
 
     .social-links-links {
         justify-content: start;
+    }
+}
+
+@media screen and (min-width: 1272px) {
+    .footer {
+        row-gap: 2rem;
     }
 }
