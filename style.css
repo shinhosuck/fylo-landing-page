@@ -444,6 +444,7 @@ FOOTER
 .footer-container {
     background: #07043b;
     padding: 4rem 0;
+    padding-top: 6rem;
 }
 
 .footer{
@@ -543,6 +544,10 @@ FOOTER
     letter-spacing: 0.05rem;
 }
 
+.social-links {
+    display: grid;
+}
+
 .social-links-links {
     display: flex;
     flex-wrap: wrap;
@@ -600,5 +605,17 @@ FOOTER
 @media screen and (min-width: 1272px) {
     .footer {
         row-gap: 2rem;
+    }
+
+    .about-us {
+        justify-content: center;
+    }
+
+    .contact-us {
+        justify-content: center;
+    }
+
+    .social-links {
+        justify-content: center
     }
 }
